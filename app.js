@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json())
 app.use('/',router);
 router.get('/', (req,res) => {
-    res.send(" Hola mundo desde Heroku")
+    res.send(" Pagina funcionando en Render")
 })
 
 //router.get('/eventos', shevento);
